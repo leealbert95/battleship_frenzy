@@ -1,0 +1,93 @@
+
+
+.board {
+  background-color: black;
+  border: 1px solid;
+  border-spacing: 0;
+  height: 500px;
+  width: 500px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between
+}
+
+.board-wrapper-left {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.board-wrapper-right {
+  position: relative;
+  top: 50px;
+  right: 50px;
+}
+
+.cell {
+  margin-bottom: 0;
+  position: relative;
+  line-height: 1;
+}
+
+.cards-wrapper {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  top: 100px;
+  left: auto;
+  right: auto;
+}
+
+.game-button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.lobby .users-list {
+  position: fixed;
+  border: 10px solid #38afd4;
+  border-radius: 5px;
+  height: 97%;
+  width: 140px;
+  right: 0; 
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.ships-wrapper {
+  position: relative;
+  top: 50px;
+  right: 50px;
+}
+
+.ships-wrapper .category {
+  height: 60px;
+  border: 0.02px solid;
+}
+
+.ships-panel {
+  height: 300px;
+  width: 500px;
+  background-color: gray;
+}
+
+
+
